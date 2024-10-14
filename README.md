@@ -1,14 +1,13 @@
-# Replit project links
-- This GitHub repository is used to link the work results for the course certificate.
-- All submission files are available in the Replit repository.
-- The three scripts in workplace folder are interconnected. `project-name.py` contains the main solution code, which is executed and tested through `main.py`, while `test_module.py` ensures the accuracy of the solution by running automated tests on the code from `project-name.py`.
+# Overview
+- This GitHub repository links the work results for the Certification Project.
+- All submission files are available in the Replit project (Repl).
+- The three main scripts in each project folder are interconnected. The `project-name.py` file contains the main solution code, which is executed and tested through `main.py`, while `test_module.py` ensures the accuracy of the solution by running automated tests on the code from `project-name.py`.
 
 ## How to run
-1. Navigate to `main.py` each Repl.
-2. Click `Run` to run the code.
+1. Navigate to `main.py` in each Repl.
+2. Click `Run` button to execute the code.
 
-### Here is the link for the Repl:
-
+### Here are the links for each Repl:
 - Data Analysis with Python Projects:
   - [Mean Variance Standard Deviation Calculator](https://replit.com/@fxrdhan/Mean-Variance-Standard-Deviation-Calculator#main.py)
   - [Demographic Data Analyzer](https://replit.com/@fxrdhan/Demographic-Data-Analyzer#main.py)
