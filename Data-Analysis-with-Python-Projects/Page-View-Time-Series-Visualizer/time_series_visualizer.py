@@ -54,7 +54,8 @@ def draw_bar_plot():
     )
 
     # Group by Year and Month and calculate the mean
-    df_bar = df_bar.groupby(["Year", "Month"])["value"].mean().reset_index()
+    # df_bar = df_bar.groupby(["Year", "Month"])["value"].mean().reset_index()
+    df_bar = df_bar.groupby(["Year", "Month"], observed=False)["value"].mean().reset_index()
 
     # Pivot the data for plotting
     df_pivot = df_bar.pivot(index="Year", columns="Month", values="value")
