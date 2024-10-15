@@ -7,7 +7,7 @@
 1. Navigate to `main.py` in each Repl.
 2. Click `Run` button to execute the code.
 
-### Here are the links for each Repl:
+### Links for each Repl:
 - Data Analysis with Python Projects:
   - [Mean Variance Standard Deviation Calculator](https://replit.com/@fxrdhan/Mean-Variance-Standard-Deviation-Calculator#main.py)
   - [Demographic Data Analyzer](https://replit.com/@fxrdhan/Demographic-Data-Analyzer#main.py)
