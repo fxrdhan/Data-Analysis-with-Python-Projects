@@ -37,7 +37,7 @@ Here’s a sample output when the input is `[0,1,2,3,4,5,6,7,8]`:
 
 To run the project, use the following Replit environment:
 
-[Run the Project on Replit](https://replit.com/@fxrdhan/Data-Analysis-with-Python-Projects?v=1#mean_var_std.py)
+[Run the Project on Replit](https://replit.com/@fxrdhan/Mean-Variance-Standard-Deviation-Calculator?v=1)
 
 This will allow you to execute the code, test the `calculate()` function, and view the results directly in an online environment without the need to set up anything locally.
 
