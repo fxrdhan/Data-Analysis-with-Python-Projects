@@ -30,10 +30,10 @@ Here’s a sample output when the input is `[0,1,2,3,4,5,6,7,8]`:
 
 ## Files in This Project
 
-- **\`mean_var_std.py\`**: The core module where the \`calculate()\` function is defined.
-- **\`main.py\`**: A simple script to run and test the \`calculate()\` function.
-- **\`test_module.py\`**: Unit tests to ensure that the \`calculate()\` function works as expected.
-- **\`requirements.txt\`**: A list of dependencies for this project, mainly including Numpy.
+- `mean_var_std.py`: The core module where the `calculate()` function is defined.
+- `main.py` A simple script to run and test the `calculate()` function.
+- `test_module.py`: Unit tests to ensure that the `calculate()` function works as expected.
+- `requirements.txt`: A list of dependencies for this project, mainly including Numpy.
 
 ## Getting Started
 
