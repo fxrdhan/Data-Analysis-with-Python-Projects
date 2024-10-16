@@ -50,4 +50,4 @@ You can view the implementation of this project at the following Replit link:
 
 ## Important Note
 
-This project is a personal project created for certification purposes and should not be shared, forked, or used by others. Please respect the privacy and confidentiality of this work.
+THIS PROJECT IS A PERSONAL PROJECT CREATED FOR CERTIFICATION PURPOSES AND SHOULD NOT BE SHARED, FORKED, OR USED BY OTHERS. PLEASE RESPECT THE PRIVACY AND CONFIDENTIALITY OF THIS WORK.
