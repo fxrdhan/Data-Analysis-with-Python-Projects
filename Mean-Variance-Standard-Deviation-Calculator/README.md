@@ -1,5 +1,7 @@
 # [Mean Variance Standard Deviation Calculator](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/mean-variance-standard-deviation-calculator)
 
+Welcome to the **Mean Variance Standard Deviation Calculator** project! This project focuses on performing essential statistical calculations using a 3 x 3 matrix and Python's powerful Numpy library.
+
 ## Overview
 
 The primary goal of this project is to create a function named `calculate()` that computes key statistics—such as mean, variance, standard deviation, max, min, and sum—across the rows, columns, and the entire matrix. By leveraging Numpy, we can efficiently transform a list of numbers into a matrix and perform these calculations in a streamlined way.
