@@ -7,8 +7,6 @@
 1. Go to notebook.
 2. Click `Runtime` in the menu bar.
 3. Select `Run all` to execute the entire notebook, or
-4. Select `Run before` to execute all cells before the current cell, or
-5. Select `Run the focused cell` to execute only the currently selected cell.
 
 ## Links for each Colab
 ### Data Analysis with Python Projects
