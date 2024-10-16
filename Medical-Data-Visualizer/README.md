@@ -27,7 +27,7 @@ The rows in the dataset represent patients, and the columns represent various at
 | Physical activity              | Subjective Feature    | active              | binary                          |
 | Presence or absence of cardiovascular disease | Target Variable | cardio              | binary                          |
 
-## Instructions
+## Completed Tasks
 
 In this project, I have completed the following tasks:
 
@@ -57,7 +57,23 @@ In this project, I have completed the following tasks:
 - **`requirements.txt`**: A list of dependencies for this project, mainly including matplotlib, seaborn, and pandas.
 - **Output Files**: This project generates visual outputs saved as PNG files:
   - `catplot.png`: Categorical plot visualizing various factors.
+    <br></br>
+    ![image](https://github.com/user-attachments/assets/fd0ddb05-178d-4a64-9d0f-2402c1746240)
+
   - `heatmap.png`: Heatmap showing correlations between features.
+    <br></br>
+    ![image](https://github.com/user-attachments/assets/dc08e71b-d6c8-4300-8aaa-2f12445d7db0)
+
+ 
+### Testing result
+```bash
+...['0.0', '0.0', '-0.0', '0.0', '-0.1', '0.5', '0.0', '0.1', '0.1', '0.3', '0.0', '0.0', '0.0', '0.0', '0.0', '0.0', '0.2', '0.1', '0.0', '0.2', '0.1', '0.0', '0.1', '-0.0', '-0.1', '0.1', '0.0', '0.2', '0.0', '0.1', '-0.0', '-0.0', '0.1', '0.0', '0.1', '0.4', '-0.0', '-0.0', '0.3', '0.2', '0.1', '-0.0', '0.0', '0.0', '-0.0', '-0.0', '-0.0', '0.2', '0.1', '0.1', '0.0', '0.0', '0.0', '0.0', '0.3', '0.0', '-0.0', '0.0', '-0.0', '-0.0', '-0.0', '0.0', '0.0', '-0.0', '0.0', '0.0', '0.0', '0.2', '0.0', '-0.0', '0.2', '0.1', '0.3', '0.2', '0.1', '-0.0', '-0.0', '-0.0', '-0.0', '0.1', '-0.1', '-0.1', '0.7', '0.0', '0.2', '0.1', '0.1', '-0.0', '0.0', '-0.0', '0.1']
+.
+----------------------------------------------------------------------
+Ran 4 tests in 2.576s
+
+OK
+```
 
 ## Project Link
 
