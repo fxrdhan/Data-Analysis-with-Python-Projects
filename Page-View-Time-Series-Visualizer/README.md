@@ -25,7 +25,6 @@ For each chart, I ensured that a copy of the data frame is used to avoid modifyi
 - **`test_module.py`**: Unit tests to ensure the visualizations and calculations produce the expected results.
 - **`fcc-forum-pageviews.csv`**: The dataset file containing daily page views data.
 - **`requirements.txt`**: A list of dependencies required for the project, including Pandas, Matplotlib, and Seaborn.
-
 - **Output Files**: This project generates visual outputs saved as PNG files:
   - `line_plot.png`: Line chart showing daily page views over time.
     ![image](https://github.com/user-attachments/assets/67c71a4f-8f2b-4890-9a52-3e804814d513)
@@ -33,6 +32,15 @@ For each chart, I ensured that a copy of the data frame is used to avoid modifyi
     ![image](https://github.com/user-attachments/assets/dbd0076c-0957-452f-a8fd-8d33ae5f2037)
   - `box_plot.png`: Box plots illustrating trends and seasonal variations in page views.
     ![image](https://github.com/user-attachments/assets/affd2d2c-59f7-43e7-b2fb-c094861c63e5)
+
+### Testing result
+```bash
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 3.392s
+
+OK
+```
 
 ## Project Link
 
