@@ -6,14 +6,33 @@ Welcome to the **Mean Variance Standard Deviation Calculator** project! This pro
 
 The primary goal of this project is to create a function named `calculate()` that computes key statistics—such as mean, variance, standard deviation, max, min, and sum—across the rows, columns, and the entire matrix. By leveraging Numpy, we can efficiently transform a list of numbers into a matrix and perform these calculations in a streamlined way.
 
-## How It Works
+## Tasks
+
+Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
+
+The input of the function should be a list containing 9 digits. The function should convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
+
+The returned dictionary should follow this format:
+
+```python
+{
+  'mean': [axis1, axis2, flattened],
+  'variance': [axis1, axis2, flattened],
+  'standard deviation': [axis1, axis2, flattened],
+  'max': [axis1, axis2, flattened],
+  'min': [axis1, axis2, flattened],
+  'sum': [axis1, axis2, flattened]
+}
+```
+
+If a list containing less than 9 elements is passed into the function, it should raise a ValueError exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.
 
 - **Input:** A list containing 9 numerical elements.
 - **Output:** A dictionary that presents the mean, variance, standard deviation, max, min, and sum of the elements calculated along the rows, columns, and the entire matrix.
 
 For example, calling `calculate([0,1,2,3,4,5,6,7,8])` will give a comprehensive overview of these statistics in an organized format.
 
-## Example Output
+### Example Output
 
 Here’s a sample output when the input is `[0,1,2,3,4,5,6,7,8]`:
 
@@ -35,13 +54,11 @@ Here’s a sample output when the input is `[0,1,2,3,4,5,6,7,8]`:
 - **`test_module.py`**: Unit tests to ensure that the `calculate()` function works as expected.
 - **`requirements.txt`**: A list of dependencies for this project, mainly including Numpy.
 
-## Getting Started
+## Project Link
 
-To run the project, use the following Replit environment:
+You can view the project I have developed and its implementation at the following Replit link:
 
-[Run the Project on Replit](https://replit.com/@fxrdhan/Mean-Variance-Standard-Deviation-Calculator?v=1)
-
-This will allow you to execute the code, test the `calculate()` function, and view the results directly in an online environment without the need to set up anything locally.
+[View My Project on Replit](https://replit.com/@fxrdhan/Mean-Variance-Standard-Deviation-Calculator?v=1)
 
 ## Important Note
 
