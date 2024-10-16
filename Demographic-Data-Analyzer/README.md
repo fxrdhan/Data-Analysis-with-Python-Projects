@@ -18,6 +18,32 @@ The dataset used in this project was extracted from the 1994 Census database, an
 8. Which country has the highest percentage of people that earn >50K, and what is that percentage?
 9. Identify the most popular occupation for those who earn >50K in India.
 
+### Testing result
+```bash
+Number of each race:
+ race
+White                 27816
+Black                  3124
+Asian-Pac-Islander     1039
+Amer-Indian-Eskimo      311
+Other                   271
+Name: count, dtype: int64
+Average age of men: 39.4
+Percentage with Bachelors degrees: 16.4%
+Percentage with higher education that earn >50K: 46.5%
+Percentage without higher education that earn >50K: 17.4%
+Min work time: 1 hours/week
+Percentage of rich among those who work fewest hours: 10.0%
+Country with highest percentage of rich: Iran
+Highest percentage of rich people in country: 41.9%
+Top occupations in India: Prof-specialty
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.274s
+
+OK
+```
+
 ## Files in This Project
 
 - **`demographic_data_analyzer.py`**: Core script for analyzing the data and answering the above questions.
