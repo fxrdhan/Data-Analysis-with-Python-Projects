@@ -6,7 +6,7 @@
 ## How to run
 1. Go to notebook.
 2. Click `Runtime` in the menu bar.
-3. Select `Run all` to execute the entire notebook, or
+3. Select `Run all` to execute the entire notebook.
 
 ## Links for each Colab
 ### Data Analysis with Python Projects
