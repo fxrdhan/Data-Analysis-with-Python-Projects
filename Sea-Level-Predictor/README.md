@@ -27,6 +27,15 @@ In this project, I have completed the following tasks:
   - `sea_level_plot.png`: A plot that shows the scatter plot and both lines of best fit, extending through 2050.
     ![image](https://github.com/user-attachments/assets/873fd7b6-ebc7-44ea-a115-7bd10d3d12a5)
 
+### Testing result
+```bash
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.979s
+
+OK
+```
+
 ## Project Link
 
 You can view the details and code implementation of this project at the following Replit link:
