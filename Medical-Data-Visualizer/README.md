@@ -1,8 +1,14 @@
-# Medical Data Visualizer
-In this project, you will visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas. The dataset values were collected during medical examinations.
+# [Medical Data Visualizer](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer)
 
-### Data Description
-The rows in the dataset represent patients, and the columns represent information like body measurements, results from various blood tests, and lifestyle choices. You will use the dataset to explore the relationship between cardiac disease, body measurements, blood markers, and lifestyle choices.
+Welcome to the **Medical Data Visualizer** project! This project involves visualizing and analyzing medical examination data using Python libraries like matplotlib, seaborn, and pandas.
+
+## Overview
+
+The dataset contains information collected from medical examinations, including body measurements, blood test results, and lifestyle choices. The goal is to explore the relationships between these variables and cardiovascular disease.
+
+## Data Description
+
+The rows in the dataset represent patients, and the columns represent various attributes, such as body measurements, blood markers, and lifestyle choices.
 
 **File name**: `medical_examination.csv`
 
@@ -21,27 +27,48 @@ The rows in the dataset represent patients, and the columns represent informatio
 | Physical activity              | Subjective Feature    | active              | binary                          |
 | Presence or absence of cardiovascular disease | Target Variable | cardio              | binary                          |
 
-### Instructions
-By each number in the `medical_data_visualizer.py` file, add the code from the associated instruction number below.
+## Instructions
 
-1. Import the data from `medical_examination.csv` and assign it to the `df` variable
-2. Create the `overweight` column in the `df` variable
-3. Normalize data by making 0 always good and 1 always bad. If the value of `cholesterol` or `gluc` is 1, set the value to 0. If the value is more than 1, set the value to 1.
-4. Draw the Categorical Plot in the `draw_cat_plot` function
-5. Create a DataFrame for the cat plot using `pd.melt` with values from `cholesterol`, `gluc`, `smoke`, `alco`, `active`, and `overweight` in the `df_cat` variable.
-6. Group and reformat the data in `df_cat` to split it by `cardio`. Show the counts of each feature. You will have to rename one of the columns for the `catplot` to work correctly.
-7. Convert the data into long format and create a chart that shows the value counts of the categorical features using the following method provided by the seaborn library import : `sns.catplot()`
-8. Get the figure for the output and store it in the `fig` variable
-9. Do not modify the next two lines
-10. Draw the Heat Map in the `draw_heat_map` function
-11. Clean the data in the `df_heat` variable by filtering out the following patient segments that represent incorrect data:
-    - diastolic pressure is higher than systolic (Keep the correct data with `(df['ap_lo'] <= df['ap_hi'])`)
-    - height is less than the 2.5th percentile (Keep the correct data with `(df['height'] >= df['height'].quantile(0.025))`)
-    - height is more than the 97.5th percentile
-    - weight is less than the 2.5th percentile
-    - weight is more than the 97.5th percentile
-12. Calculate the correlation matrix and store it in the `corr` variable
-13. Generate a mask for the upper triangle and store it in the `mask` variable
-14. Set up the matplotlib figure
-15. Plot the correlation matrix using the method provided by the seaborn library import: `sns.heatmap()`
-16. Do not modify the next two lines
+In this project, I have completed the following tasks:
+
+1. Imported the data from `medical_examination.csv` and assigned it to the `df` variable.
+2. Created a new `overweight` column in the DataFrame based on the BMI of the patients.
+3. Adjusted the `cholesterol` and `gluc` values by normalizing them such that a value of 1 is changed to 0, and any value greater than 1 is changed to 1.
+4. Defined the function `draw_cat_plot` to generate a categorical plot that visualizes various health metrics in relation to cardiovascular disease.
+5. Transformed the data into a long format using `pd.melt` for the categorical plot, focusing on columns like `cholesterol`, `gluc`, `smoke`, `alco`, `active`, and `overweight`.
+6. Grouped the data in `df_cat` by the `cardio` feature, adjusted the formatting for the categorical plot, and displayed the counts of each category.
+7. Used `sns.catplot()` to plot the data, showing the counts for each feature split by cardiovascular status.
+8. Extracted the resulting figure and stored it in the `fig` variable for further output.
+9. Kept the following lines intact to ensure the correct output: `fig.savefig('catplot.png')`.
+10. Created the `draw_heat_map` function to generate a heatmap of correlations among the features.
+11. Cleaned the data in `df_heat` by filtering out rows where the diastolic blood pressure (`ap_lo`) is higher than the systolic (`ap_hi`). Additionally, filtered out rows where height and weight values fall outside the 2.5th and 97.5th percentiles.
+12. Calculated the correlation matrix of the cleaned DataFrame and stored it in the `corr` variable.
+13. Created a mask for the upper triangle of the heatmap to avoid displaying duplicate values.
+14. Initialized a matplotlib figure for plotting the heatmap.
+15. Used the `sns.heatmap()` function to plot the correlation matrix with appropriate annotations.
+16. Preserved the following line to save the heatmap: `fig.savefig('heatmap.png')`.
+
+## Files in This Project
+
+- **`medical_data_visualizer.py`**: Core script for performing data analysis and generating visualizations.
+- **`main.py`**: A script to run and test the `medical_data_visualizer.py` calculations.
+- **`test_module.py`**: Unit tests to ensure that the visualizations and calculations are correct.
+- **`medical_examination.csv`**: The dataset file containing medical examination data.
+- **`requirements.txt`**: A list of dependencies for this project, mainly including matplotlib, seaborn, and pandas.
+- **Output Files**: This project generates visual outputs saved as PNG files:
+  - `catplot.png`: Categorical plot visualizing various factors.
+  - `heatmap.png`: Heatmap showing correlations between features.
+
+## Project Link
+
+You can view the project I have developed and its implementation at the following Replit link:
+
+[View My Project on Replit](https://replit.com/@fxrdhan/Medical-Data-Visualizer?v=1)
+
+## Dataset Source
+
+Dua, D. and Graff, C. (2019). [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
+
+## Important Note
+
+This project is a personal project created for certification purposes and should not be shared, forked, or used by others. Please respect the privacy and confidentiality of this work.
