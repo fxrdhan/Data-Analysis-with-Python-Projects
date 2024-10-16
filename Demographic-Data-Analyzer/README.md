@@ -22,6 +22,7 @@ The dataset used in this project was extracted from the 1994 Census database, an
 
 - **`demographic_data_analyzer.py`**: Core script for analyzing the data and answering the above questions.
 - **`main.py`**: A simple script to run and test the `demographic_data_analyzer.py` calculations.
+- **`test_module.py`**: Unit tests to ensure that the functions in `demographic_data_analyzer.py` work as expected.
 - **`adult.data.csv`**: The dataset file containing demographic data.
 - **`requirements.txt`**: A list of dependencies, mainly including Pandas.
 
